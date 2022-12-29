@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 def main (request):
     context = {}
-    return render(request, 'store/main.html', context)
+    return render(request, 'main.html', context)
