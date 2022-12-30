@@ -2,6 +2,6 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def main (request):
+def store (request):
     context = {}
-    return render(request, 'main.html', context)
+    return render(request, 'store.html', context)
